@@ -53,6 +53,6 @@ want to set an environment variable.
 You can also execute it using the **preferred** method with the actual environment variable:
 
 ```
-export DS_URL="amqp://testing:testing@192.168.99.100:5672/whatever//"
+export DS_URL="amqp://testing:testing@192.168.99.100:5672/whatever//////"
 mvn -U clean install
 ```
